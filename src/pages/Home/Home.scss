@@ -1,0 +1,12 @@
+.logout {
+  color: #007bff;
+  font-size: 15px;
+  padding: 6px 12px;
+  float: left;
+
+  &:hover,
+  &.focus {
+    cursor: pointer;
+    color: #0069d9;
+  }
+}

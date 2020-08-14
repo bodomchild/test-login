@@ -1,0 +1,38 @@
+.sign-up-form {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 50px;
+
+  h2 {
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+
+  .form-group {
+    padding-bottom: 20px;
+
+    input {
+      font-size: 25px;
+    }
+  }
+
+  button {
+    float: right;
+  }
+
+  .change {
+    float: left;
+    background: transparent;
+    font-size: 15px;
+    padding: 6px 12px;
+
+    .__link {
+      color: #007bff;
+      &:hover,
+      &:focus {
+        cursor: pointer;
+        color: #0069d9;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.login-form {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 50px;
+
+  h2 {
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+
+  .form-group {
+    padding-bottom: 20px;
+
+    input {
+      font-size: 25px;
+    }
+  }
+
+  button {
+    float: right;
+  }
+
+  .change {
+    float: left;
+    background: transparent;
+    color: #007bff;
+    font-size: 15px;
+    padding: 6px 12px;
+
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      color: #0069d9;
+    }
+  }
+}
