@@ -1,2 +1,2 @@
-export const HOST = "http://localhost:8080";
+export const HOST = "https://facrod-go-test.herokuapp.com";
 export const TOKEN = "token";
